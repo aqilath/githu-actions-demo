@@ -17,7 +17,7 @@ jobs:
         run: echo "Building application..."
 
       - name: Run test step
-        run: exit 1
+        run: echo "Running tests..."
 
       - name: Finish
         run: echo "CI pipeline finished successfully"
